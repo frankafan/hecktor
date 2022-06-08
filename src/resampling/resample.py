@@ -8,9 +8,9 @@ import numpy as np
 import SimpleITK as sitk
 
 # Default paths
-path_in = 'data/hecktor_nii/'
-path_out = 'data/resampled/'
-path_bb = 'data/bbox.csv'
+path_in = 'data/hecktor2021/hecktor_nii/'
+path_out = 'data/hecktor2021/resampled/'
+path_bb = 'data/hecktor2021/bbox.csv'
 
 
 @click.command()
